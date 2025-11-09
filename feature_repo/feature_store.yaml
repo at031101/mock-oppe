@@ -1,9 +1,5 @@
 project: iris_feature_repo
 provider: local
 registry: feature_repo/registry.db
-online_store:
-  path: feature_repo/online_store.db
 offline_store:
-  # Using local file offline store (we'll register FileSource in Python)
   type: file
-  path: feature_repo/offline_store.parquet
